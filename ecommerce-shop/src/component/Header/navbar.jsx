@@ -8,7 +8,7 @@ import { IoPersonSharp } from "react-icons/io5";
 export default function Navbar() {
   return (
     <Fragment>
-      <div className="flex justify-between opcaity fixed w-full py-7 px-7">
+      <div className="flex justify-between opcaity fixed w-full py-7 px-7 z-10">
         <div className='flex items-center'>
           <img className='h-auto max-w-xs bg-blend-multiply' src={Logo} alt="" />
           <div>
