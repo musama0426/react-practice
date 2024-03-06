@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-
+import logoBlack from "../../assets/image/logo-black-free-img.png"
 function Footer(){
 
     return(
         <Fragment>
-            <div className="grid grid-cols-5 gap-5 py-5">
+            <div className="grid grid-cols-5 gap-5 py-[60px]">
                 <div className="col-span-2">
                     <div>
-                        <img className="mb-[50px]" src="" alt="Logo" />
+                        <img className="mb-[50px] w-[100px]" src={logoBlack} alt="Logo" />
                         <p className="text-[20px] font-medium text-black">The best look anytime, anywhere.</p>
                     </div>
                 </div>

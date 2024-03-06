@@ -9,7 +9,7 @@ function FeatureProducts() {
   return (
     <div className='pt-[80px] pb-20'>
         <h3 className='text-[34px] font-[600] text-black relative border-down text-center'>Featured Products</h3>
-        <div className='grid grid-cols-5 mt-[50px] gap-5 py-10'>
+        <div className='grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 mt-[50px] gap-5 py-10'>
             {featurePost && featurePost.length > 0 &&
             featurePost.map((posts)=>{
                 return(
@@ -31,14 +31,14 @@ function FeatureProducts() {
             }
             
         </div>
-        <div className='special-editions py-[120px] px-[100px]'>
-            <h3 className='text-white font-[500] text-[24px]'>Limited Time Offer</h3>
-            <h4 className='text-white font-[600] text-[40px]'>Special Edition</h4>
+        <div className='special-editions xl:py-[120px] xl:px-[100px] lg:py-[120px] lg:px-[100px] md:py-[120px] md:px-[40px] sm:py-[100px] sm:px-[40px]'>
+            <h3 className='text-white font-[500] lg:text-[24px] md:text-[20px] sm:text-[16px]'>Limited Time Offer</h3>
+            <h4 className='text-white font-[600] lg:text-[40px] md:text-[28px] sm:text-[22px]'>Special Edition</h4>
             <p className='text-white font-[400] text-[16px] pt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-            <b className='text-white font-[700] text-[22px] block mb-5 mt-3'>Buy This T-shirt At 20% Discount, Use Code OFF20</b>
+            <b className='text-white font-[700] lg:text-[22px] md:text-[20px] sm:text-[18px] block mb-5 mt-3'>Buy This T-shirt At 20% Discount, Use Code OFF20</b>
             <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">SHOP NOW</button>
         </div>
-        <div className='grid grid-cols-4 mt-[50px] gap-5 py-10'>
+        <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 mt-[50px] gap-5 py-10'>
         {featureBlogs && featureBlogs.length > 0 &&
             featureBlogs.map((blogItems)=>{
              return(

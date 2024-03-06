@@ -4,18 +4,18 @@ import CArdImg from "../../assets/image/women-fashion-free-img.jpg";
 function Products() {
   const array = [1, 2, 3];
   return (
-    <div className="grid grid-cols-3 gap-5 mb-6 mb-[80px]">
+    <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-5 mb-6 mb-[80px]">
       {array && array.length > 0 &&
         array.map((item) => {
           return (
-            <div className="product-image-1 xl:w-[400px] xl:h-[500px] lg:w-[225px] lg:h-[400px] md:w-[200px] md:h-[300px] bgg-opacity flex align-center justify-end flex-col realtive px-5 pb-5">
+            <div className="product-image-1 xl:w-[330px] xl:h-[500px] lg:w-[225px] lg:h-[400px] md:w-[170px] md:h-[300px] sm:w-[170px] sm:h-[500px] w-[100%] h-[500px] bgg-opacity flex align-center justify-end flex-col realtive px-5 pb-5">
               <img
                 className="absolute top-0 left-0 w-full h-full z-[-5]"
                 src={CArdImg}
                 alt=""
               />
-              <h3 className="text-white text-[24px] font-medium pb-3">20% Off On Tank Tops</h3>
-              <p className="text-white text-[16px] font-medium pb-5">
+              <h3 className="text-white lg:text-[24px] md:text-[20px] font-medium pb-3">20% Off On Tank Tops</h3>
+              <p className="text-white lg:text-[16px]  md:text-[14px]  font-medium pb-5">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
                 quaerat vitae quo illum blanditiis itaque.
               </p>

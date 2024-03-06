@@ -47,6 +47,11 @@
     background-image: url('./assets/image/banner-03.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
+}
+
+.menuDropdown {
+    transition: all .5s ease-in-out;
+    height: auto;
 }
