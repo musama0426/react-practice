@@ -8,7 +8,7 @@ function Products() {
       {array && array.length > 0 &&
         array.map((item) => {
           return (
-            <div className="product-image-1 w-[400px] h-[500px] bgg-opacity flex align-center justify-end flex-col realtive px-5 pb-5">
+            <div className="product-image-1 xl:w-[400px] xl:h-[500px] lg:w-[225px] lg:h-[400px] md:w-[200px] md:h-[300px] bgg-opacity flex align-center justify-end flex-col realtive px-5 pb-5">
               <img
                 className="absolute top-0 left-0 w-full h-full z-[-5]"
                 src={CArdImg}
