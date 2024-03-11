@@ -9,7 +9,7 @@ function BelowFooter(){
 
     return(   
         <div className="w-[70%] m-auto py-[20px]">
-            <div className="grid grid-cols-5 gap-5 py-5">
+            <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-5 py-5">
                 <div className="col-span-4">
                     <p>Copyright © 2024 Brandstore. Powered by Brandstore.</p>
                 </div>

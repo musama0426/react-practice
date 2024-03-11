@@ -25,7 +25,7 @@ function Carosuel() {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 770,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -33,7 +33,7 @@ function Carosuel() {
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 350,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -42,6 +42,7 @@ function Carosuel() {
     ]
   };
   return (
+    <div className=' w-[80%]'>
     <Slider {...settings}>
       <div>
         <img src={Sliderimage1} alt="" />
@@ -62,6 +63,7 @@ function Carosuel() {
         <img src={Sliderimage2} alt="" />
       </div>
     </Slider>
+    </div>
   )
 }
 
