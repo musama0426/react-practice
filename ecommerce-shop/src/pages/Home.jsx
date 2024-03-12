@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import Banner from '../component/Main/Banner';
 import Carosuel from '../component/Main/Carosuel';
 import Products from '../component/Main/Products';
@@ -8,6 +8,7 @@ import Footer from '../component/Footer/Footer';
 import BelowFooter from '../component/Footer/BelowFooter';
 
 function Home() {
+
   return (
     <Fragment>
         <Banner/>
