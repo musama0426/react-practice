@@ -5,8 +5,8 @@ function Footer(){
 
     return(
         <Fragment>
-            <div className="grid grid-cols-5 gap-5 py-[60px]">
-                <div className="col-span-2">
+            <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-5 py-[60px]">
+                <div className="md:col-span-2 col-span-1">
                     <div>
                         <img className="mb-[50px] w-[100px]" src={logoBlack} alt="Logo" />
                         <p className="text-[20px] font-medium text-black">The best look anytime, anywhere.</p>

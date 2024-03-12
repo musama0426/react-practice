@@ -12,14 +12,14 @@ function Home() {
   return (
     <Fragment>
         <Banner/>
-        <div className='xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] w-[100%] xl:m-auto lg:m-auto md:m-auto sm:m-auto py-20'>
+        <div className='sm:w-[70%] w-[100%] m-auto py-20 flex justify-center'>
             <Carosuel/>
         </div>
-        <div className='xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] w-[100%] xl:m-auto lg:m-auto md:m-auto sm:m-auto flex justify-center'>
+        <div className='sm:w-[70%] w-[100%] m-auto flex justify-center'>
             <Products/>
         </div>
         <div className='bg-slate-100'>
-          <div className='xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] w-[100%] xl:m-auto lg:m-auto md:m-auto sm:m-auto flex justify-center'>
+          <div className='sm:w-[70%] w-[100%] m-auto flex justify-center'>
             <FeatureProducts/>
           </div>
         </div>
